@@ -14,7 +14,7 @@ The code for my Raspberry Pi Photo Booth (Version 2)
 `apt update && apt install git python-pip python-imaging`
 
 5. Clone the code:
-`git clone https://github.com/jibbius/raspberry_pi_photo_booth.git`
+`git clone https://github.com/mdotslash/pizero_photo.git`
 
 6. Install dependencies:
 `pip install -r requirements.txt`
@@ -58,7 +58,7 @@ A special thank you to all those who have submitted issues, and pull requests.
   - Introduce version history.
   - Updated readme with additional installation instructions (Special thanks: ieguiguren).
 - 1.2 (2018-02-28)
-  - Add debounce timer functionality to prevent accidental button presses due to EM interference (Special thanks: André).
+  - Add debounce timer functionality to prevent accidental button presses due to EM interference (Special thanks: Andrï¿½).
 - 1.1 (2018-01)
   - Correction to Python header (Credit: ieguiguren).
 - 1.0 (2017-05)

@@ -252,8 +252,8 @@ def main():
     CAMERA.start_preview(resolution=(SCREEN_W, SCREEN_H))
 
     #Display intro screen
-    intro_image_1 = REAL_PATH + "/assets/intro_1.png"
-    intro_image_2 = REAL_PATH + "/assets/intro_2.png"
+    intro_image_1 = REAL_PATH + "/assets/jms/intro_1.png"
+    intro_image_2 = REAL_PATH + "/assets/jms/intro_2.png"
     overlay_1 = overlay_image(intro_image_1, 0, 3)
     overlay_2 = overlay_image(intro_image_2, 0, 4)
 
