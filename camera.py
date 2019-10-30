@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 """Raspberry Pi Photo Booth (Version 1.2)
-
 This code is intended to be runs on a Raspberry Pi.
 Currently, both Python 2 and Python 3 are supported.
-
 You can modify the config via [config.yaml].
 """
 __author__  = 'Jibbius (Jack Barker)'
@@ -112,10 +110,8 @@ def get_base_filename_for_images():
     """
     For each photo-capture cycle, a common base filename shall be used,
     based on the current timestamp.
-
     Example:
     ${ProjectRoot}/photos/2017-12-31_23-59-59
-
     The example above, will later result in:
     ${ProjectRoot}/photos/2017-12-31_23-59-59_1of4.png, being used as a filename.
     """
@@ -252,8 +248,8 @@ def main():
     CAMERA.start_preview(resolution=(SCREEN_W, SCREEN_H))
 
     #Display intro screen
-    intro_image_1 = REAL_PATH + "/assets/jms/intro_1.png"
-    intro_image_2 = REAL_PATH + "/assets/jms/intro_2.png"
+    intro_image_1 = REAL_PATH + "/assets/intro_1.png"
+    intro_image_2 = REAL_PATH + "/assets/intro_2.png"
     overlay_1 = overlay_image(intro_image_1, 0, 3)
     overlay_2 = overlay_image(intro_image_2, 0, 4)
 
